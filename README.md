@@ -2,6 +2,9 @@
 
 A personal portfolio site built with Node.js, Express and EJS.
 
+- Live site: https://express-portfolio-z4q5.onrender.com/
+- GitHub: https://github.com/Dev-APkash/infr3120-portfolio
+
 ## How it was made
 ```
 npx express-generator --view=ejs --git
