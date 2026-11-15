@@ -62,3 +62,6 @@ typings/
 
 # Assignment handout
 *.pdf
+
+# Lecture reference code (not part of this project)
+code from school/
