@@ -1,11 +1,33 @@
 <%- include('partials/header') %>
 
-<div class="container text-center mt-5">
-  <img src="/images/profile.svg" alt="Profile picture" class="rounded-circle mb-3" width="150">
-  <h1>Hi, I'm Aarush</h1>
-  <p class="lead">I just be making stuff that I would use personally.</p>
-  <a href="/projects" class="btn btn-primary">See My Projects</a>
-  <a href="/contact" class="btn btn-secondary">Contact Me</a>
+<div class="hero text-center">
+  <div class="container">
+    <img src="/images/profile.svg" alt="Profile picture" class="rounded-circle mb-3" width="150">
+    <h1>Hi, I'm Aarush</h1>
+    <p class="lead">I just be making stuff that I would use personally.</p>
+    <a href="/projects" class="btn btn-primary">See My Projects</a>
+    <a href="/contact" class="btn btn-outline-light">Contact Me</a>
+  </div>
+</div>
+
+<div class="container my-5">
+  <div class="row text-center">
+    <div class="col-md-4 mb-3">
+      <i class="fa-solid fa-code fa-2x text-primary mb-2"></i>
+      <h5>Web Development</h5>
+      <p>Node.js, Express, HTML, CSS and JavaScript.</p>
+    </div>
+    <div class="col-md-4 mb-3">
+      <i class="fa-brands fa-docker fa-2x text-primary mb-2"></i>
+      <h5>Self-Hosting</h5>
+      <p>Running my own tools in Docker on a home lab.</p>
+    </div>
+    <div class="col-md-4 mb-3">
+      <i class="fa-solid fa-robot fa-2x text-primary mb-2"></i>
+      <h5>Automation</h5>
+      <p>Scripts and workflows that do the boring work for me.</p>
+    </div>
+  </div>
 </div>
 
 <%- include('partials/footer') %>
