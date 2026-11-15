@@ -6,6 +6,7 @@ A personal portfolio site built with Node.js, Express and EJS.
 ```
 npx express-generator --view=ejs --git
 npm install
+npm install bootstrap @fortawesome/fontawesome-free
 npm start
 ```
 Then open http://localhost:3000
@@ -17,6 +18,8 @@ Then open http://localhost:3000
 - `/contact` - Contact Me
 
 ## Structure
+- `server.js` - starts the HTTP server (moved from `bin/www`, as shown in class)
+- `app.js` - Express setup; serves `public/` and `node_modules/` (for Bootstrap and Font Awesome)
 - `views/partials/header.ejs` and `footer.ejs` - shared layout included on every page
 - `views/` - EJS page templates
 - `public/stylesheets`, `public/javascripts`, `public/images` - CSS, JS and images
